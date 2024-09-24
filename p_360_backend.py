@@ -24,7 +24,7 @@ from langchain.prompts import PromptTemplate
 
 
 api_key = 'AIzaSyB4V0YKmIoQk1BMlRkRATL011Uy9nUcFaA'
-genai.configure(api_key=api_key)
+# genai.configure(api_key=api_key)
 
 def company_data():
     #data_load = PyPDFLoader(file_path = 'Incedo_Benefits Program.pdf')
