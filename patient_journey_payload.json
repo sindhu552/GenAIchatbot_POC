@@ -1,0 +1,483 @@
+{
+    "5eb39268d55f7373ec8f9419": [
+        {
+            "patient_id": "a0R1P000007genRUAQ",
+            "name": {
+                "given": "a0R1P000007genRUAQ",
+                "family": "a0R1P000007genRUAQ"
+            },
+            "patientType": "GPF",
+            "gatcf_active_flag": "true",
+            "Service Requests": [
+                {
+                    "sr_id": "5001P00000y88naQAA",
+                    "source": "Pact",
+                    "start_date": "2020-01-24 00:10:39:000 +00",
+                    "closed_date": "2020-04-06 17:44:12:000 +00",
+                    "age_of_sr": 74,
+                    "sr_type": {
+                        "text": "Co-pay Assistance"
+                    },
+                    "case_number": "02654680",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Closed",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P00000y88naQAA"
+                },
+                {
+                    "sr_id": "5001P00000y88nZQAQ",
+                    "source": "Pact",
+                    "start_date": "2020-01-24 00:10:39:000 +00",
+                    "closed_date": "2020-04-06 17:17:14:000 +00",
+                    "age_of_sr": 74,
+                    "sr_type": {
+                        "text": "Benefits Investigation/Prior Authorization"
+                    },
+                    "case_number": "02654679",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Closed",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P00000y88nZQAQ"
+                },
+                {
+                    "sr_id": "5001P00000y89rSQAQ",
+                    "source": "Pact",
+                    "start_date": "2020-01-24 15:50:45:000 +00",
+                    "closed_date": null,
+                    "age_of_sr": 1696,
+                    "sr_type": {
+                        "text": "Treatment Coordination"
+                    },
+                    "case_number": "02655670",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Enrollment Review",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P00000y89rSQAQ"
+                },
+                {
+                    "sr_id": "5001P000014lrolQAA",
+                    "source": "Pact",
+                    "start_date": "2020-06-01 17:32:38:000 +00",
+                    "closed_date": "2021-11-24 21:06:53:000 +00",
+                    "age_of_sr": 541,
+                    "sr_type": {
+                        "text": "Patient Foundation"
+                    },
+                    "case_number": "02904913",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Closed",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P000014lrolQAA"
+                },
+                {
+                    "sr_id": "5001P000017ToIoQAK",
+                    "source": "Pact",
+                    "start_date": "2020-10-08 08:03:35:000 +00",
+                    "closed_date": "2020-10-08 12:58:29:000 +00",
+                    "age_of_sr": 0,
+                    "sr_type": {
+                        "text": "Benefits Investigation/Prior Authorization"
+                    },
+                    "case_number": "03141032",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Closed",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P000017ToIoQAK"
+                },
+                {
+                    "sr_id": "5001P00001LUMsBQAX",
+                    "source": "Pact",
+                    "start_date": "2022-02-04 09:07:50:000 +00",
+                    "closed_date": "2022-02-08 16:57:30:000 +00",
+                    "age_of_sr": 4,
+                    "sr_type": {
+                        "text": "Benefits Investigation/Prior Authorization"
+                    },
+                    "case_number": "04289126",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Closed",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P00001LUMsBQAX"
+                },
+                {
+                    "sr_id": "5001P00001LUktsQAD",
+                    "source": "Pact",
+                    "start_date": "2022-02-15 14:58:50:000 +00",
+                    "closed_date": "2022-02-18 14:47:06:000 +00",
+                    "age_of_sr": 3,
+                    "sr_type": {
+                        "text": "Patient Foundation"
+                    },
+                    "case_number": "04313143",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "Closed",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P00001LUktsQAD"
+                },
+                {
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "source": "Pact",
+                    "start_date": "2022-02-23 14:02:42:000 +00",
+                    "closed_date": null,
+                    "age_of_sr": 935,
+                    "sr_type": {
+                        "text": "Patient Foundation"
+                    },
+                    "case_number": "04333384",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "status": "On Hold",
+                    "foundation_BI_flag": "false",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/servicerequest/5001P00001LV4kmQAD"
+                }
+            ],
+            "Tasks": [
+                {
+                    "id": "00T1P00006GxZ9MUAV",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Phone Call 1/23/2023 1:20 PM",
+                    "activity_date": "2023-01-23",
+                    "executionPeriod": {
+                        "end": "2023-01-23T21:27:39.000Z",
+                        "start": "2023-01-23T21:20:40.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006GxZ9MUAV"
+                },
+                {
+                    "id": "00T1P00006I1BzrUAF",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Phone Call 2/1/2023 10:12 AM",
+                    "activity_date": "2023-02-01",
+                    "executionPeriod": {
+                        "end": "2023-02-01T18:16:30.000Z",
+                        "start": "2023-02-01T18:12:39.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006I1BzrUAF"
+                },
+                {
+                    "id": "00T1P00006IwvoiUAB",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Phone Call 2/14/2023 4:25 PM",
+                    "activity_date": "2023-02-14",
+                    "executionPeriod": {
+                        "end": "2023-02-15T00:38:24.000Z",
+                        "start": "2023-02-15T00:25:36.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006IwvoiUAB"
+                },
+                {
+                    "id": "00T1P00006IxLBLUA3",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Call",
+                    "activity_date": "2023-02-16",
+                    "executionPeriod": {
+                        "end": "2023-02-16T17:32:31.000Z",
+                        "start": "2023-02-16T17:32:31.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006IxLBLUA3"
+                },
+                {
+                    "id": "00T1P00006IxKEsUAN",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Phone Call 2/16/2023 9:27 AM",
+                    "activity_date": "2023-02-16",
+                    "executionPeriod": {
+                        "end": "2023-02-16T17:31:23.000Z",
+                        "start": "2023-02-16T17:27:59.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006IxKEsUAN"
+                },
+                {
+                    "id": "00T1P00006IySDRUA3",
+                    "source": "Pact",
+                    "sr_id": "5001P00000y89rSQAQ",
+                    "activity_type": "Call",
+                    "activity_date": "2023-02-22",
+                    "executionPeriod": {
+                        "end": "2023-02-22T19:35:28.000Z",
+                        "start": "2023-02-22T19:35:28.000Z"
+                    },
+                    "sr_type": "Treatment Coordination",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006IySDRUA3"
+                },
+                {
+                    "id": "00T1P00006KNDeQUAX",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Call",
+                    "activity_date": "2023-03-09",
+                    "executionPeriod": {
+                        "end": "2023-03-09T15:29:10.000Z",
+                        "start": "2023-03-09T15:29:10.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006KNDeQUAX"
+                },
+                {
+                    "id": "00T1P00006KND5rUAH",
+                    "source": "Pact",
+                    "sr_id": "5001P00001LV4kmQAD",
+                    "activity_type": "Phone Call 3/9/2023 7:25 AM",
+                    "activity_date": "2023-03-09",
+                    "executionPeriod": {
+                        "end": "2023-03-09T15:32:23.000Z",
+                        "start": "2023-03-09T15:25:28.000Z"
+                    },
+                    "sr_type": "Patient Foundation",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/task/00T1P00006KND5rUAH"
+                }
+            ],
+            "Encounters": [
+                {
+                    "encounter_id": "5001P000017WnlGQAS",
+                    "source": "Pact",
+                    "start_date": "2020-12-28 19:09:57:000 +00",
+                    "closed_date": "2020-12-28 19:21:16:000 +00",
+                    "days_to_close": 0,
+                    "sr_type": "Feedback for company",
+                    "case_number": "03308837",
+                    "product": [
+                        "Ocrevus"
+                    ],
+                    "record_type": [
+                        {
+                            "text": "PRC Inquiry"
+                        }
+                    ],
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/encounter/5001P000017WnlGQAS"
+                }
+            ],
+            "Communications": [],
+            "Appointments": [],
+            "Conditions": [],
+            "Questionnaire Responses": [
+                {
+                    "qr_id": "2235465",
+                    "source": "voc_patient",
+                    "response_date": "2023-02-16 09:02:30",
+                    "sent_date": "2023-02-16 09:01:09:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/questionnaireresponse/2235465"
+                }
+            ],
+            "Medication Requests": [
+                {
+                    "mr_id": "a2z1P000000T4HiQAK",
+                    "source": "Pact",
+                    "milestone_type": "Patient Ready for Treatment",
+                    "treatment_cycle": "1.0",
+                    "closed_date_time": "2020-06-17 15:40:51:000 +00",
+                    "created_date": "2020-06-20 02:08:55:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000T4HiQAK"
+                },
+                {
+                    "mr_id": "a2z1P000000T4HjQAK",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Coordinated",
+                    "treatment_cycle": "1.0",
+                    "closed_date_time": "2020-06-17 15:40:51:000 +00",
+                    "created_date": "2020-06-20 02:08:55:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000T4HjQAK"
+                },
+                {
+                    "mr_id": "a2z1P000000T4HgQAK",
+                    "source": "Pact",
+                    "milestone_type": "New Enrollment Review",
+                    "treatment_cycle": "1.0",
+                    "closed_date_time": "2020-03-02 22:01:13:000 +00",
+                    "created_date": "2020-06-20 02:27:11:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000T4HgQAK"
+                },
+                {
+                    "mr_id": "a2z1P000000T4HhQAK",
+                    "source": "Pact",
+                    "milestone_type": "Site of Treatment(s) Identification and BI Completion",
+                    "treatment_cycle": "1.0",
+                    "closed_date_time": "2020-06-17 15:40:51:000 +00",
+                    "created_date": "2020-06-20 02:28:16:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000T4HhQAK"
+                },
+                {
+                    "mr_id": "a2z1P000000T4HlQAK",
+                    "source": "Pact",
+                    "milestone_type": "Ongoing HCP/Patient Support",
+                    "treatment_cycle": "1.0",
+                    "closed_date_time": "2020-10-08 08:03:37:000 +00",
+                    "created_date": "2020-10-08 08:03:37:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000T4HlQAK"
+                },
+                {
+                    "mr_id": "a2z1P000000T4HkQAK",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Confirmed",
+                    "treatment_cycle": "1.0",
+                    "closed_date_time": "2020-06-17 15:40:51:000 +00",
+                    "created_date": "2020-10-08 08:03:37:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000T4HkQAK"
+                },
+                {
+                    "mr_id": "a2z1P000003atc1QAA",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Coordinated",
+                    "treatment_cycle": "2.0",
+                    "closed_date_time": "2020-12-15 21:28:18:000 +00",
+                    "created_date": "2020-12-15 21:28:18:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000003atc1QAA"
+                },
+                {
+                    "mr_id": "a2z1P000003atbzQAA",
+                    "source": "Pact",
+                    "milestone_type": "Site of Treatment(s) Identification and BI Completion",
+                    "treatment_cycle": "2.0",
+                    "closed_date_time": "2020-12-15 21:28:18:000 +00",
+                    "created_date": "2021-10-06 12:58:52:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000003atbzQAA"
+                },
+                {
+                    "mr_id": "a2z1P000003atc0QAA",
+                    "source": "Pact",
+                    "milestone_type": "Patient Ready for Treatment",
+                    "treatment_cycle": "2.0",
+                    "closed_date_time": "2020-12-15 21:28:18:000 +00",
+                    "created_date": "2021-10-06 12:58:52:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000003atc0QAA"
+                },
+                {
+                    "mr_id": "a2z1P000003atc2QAA",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Confirmed",
+                    "treatment_cycle": "2.0",
+                    "closed_date_time": "2021-10-06 12:58:52:000 +00",
+                    "created_date": "2022-02-04 09:07:52:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000003atc2QAA"
+                },
+                {
+                    "mr_id": "a2z1P000003atc3QAA",
+                    "source": "Pact",
+                    "milestone_type": "Ongoing HCP/Patient Support",
+                    "treatment_cycle": "2.0",
+                    "closed_date_time": "2022-02-04 09:07:52:000 +00",
+                    "created_date": "2022-02-04 09:07:52:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000003atc3QAA"
+                },
+                {
+                    "mr_id": "a2z1P000000G6FzQAK",
+                    "source": "Pact",
+                    "milestone_type": "Site of Treatment(s) Identification and BI Completion",
+                    "treatment_cycle": "3.0",
+                    "closed_date_time": "2022-02-08 17:01:12:000 +00",
+                    "created_date": "2022-02-08 17:01:12:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000G6FzQAK"
+                },
+                {
+                    "mr_id": "a2z1P000000G6G0QAK",
+                    "source": "Pact",
+                    "milestone_type": "Patient Ready for Treatment",
+                    "treatment_cycle": "3.0",
+                    "closed_date_time": "2022-03-09 21:33:40:000 +00",
+                    "created_date": "2022-03-09 21:33:40:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000G6G0QAK"
+                },
+                {
+                    "mr_id": "a2z1P000000G6G2QAK",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Confirmed",
+                    "treatment_cycle": "3.0",
+                    "closed_date_time": "2022-03-23 19:51:53:000 +00",
+                    "created_date": "2022-03-23 19:51:53:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000G6G2QAK"
+                },
+                {
+                    "mr_id": "a2z1P000000G6G1QAK",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Coordinated",
+                    "treatment_cycle": "3.0",
+                    "closed_date_time": "2022-03-23 19:51:53:000 +00",
+                    "created_date": "2022-03-23 19:51:53:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000G6G1QAK"
+                },
+                {
+                    "mr_id": "a2z1P000000G6G3QAK",
+                    "source": "Pact",
+                    "milestone_type": "Ongoing HCP/Patient Support",
+                    "treatment_cycle": "3.0",
+                    "closed_date_time": "2022-03-23 19:52:14:000 +00",
+                    "created_date": "2022-03-23 19:52:14:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000G6G3QAK"
+                },
+                {
+                    "mr_id": "a2z1P000000Gbh6QAC",
+                    "source": "Pact",
+                    "milestone_type": "Patient Ready for Treatment",
+                    "treatment_cycle": "4.0",
+                    "closed_date_time": "2022-03-23 19:52:25:000 +00",
+                    "created_date": "2022-03-23 19:52:25:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000Gbh6QAC"
+                },
+                {
+                    "mr_id": "a2z1P000000Gbh5QAC",
+                    "source": "Pact",
+                    "milestone_type": "Site of Treatment(s) Identification and BI Completion",
+                    "treatment_cycle": "4.0",
+                    "closed_date_time": "2022-03-23 19:52:25:000 +00",
+                    "created_date": "2022-03-23 19:52:25:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000Gbh5QAC"
+                },
+                {
+                    "mr_id": "a2z1P000000Gbh7QAC",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Coordinated",
+                    "treatment_cycle": "4.0",
+                    "closed_date_time": "2022-10-04 20:12:32:000 +00",
+                    "created_date": "2022-10-04 20:12:32:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000Gbh7QAC"
+                },
+                {
+                    "mr_id": "a2z1P000000Gbh8QAC",
+                    "source": "Pact",
+                    "milestone_type": "Treatment Confirmed",
+                    "treatment_cycle": "4.0",
+                    "closed_date_time": "2022-11-17 15:25:25:000 +00",
+                    "created_date": "2022-11-17 15:25:25:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000Gbh8QAC"
+                },
+                {
+                    "mr_id": "a2z1P000000Gbh9QAC",
+                    "source": "Pact",
+                    "milestone_type": "Ongoing HCP/Patient Support",
+                    "treatment_cycle": "4.0",
+                    "closed_date_time": "2022-11-17 15:25:25:000 +00",
+                    "created_date": "2022-11-17 15:25:25:000 +00",
+                    "Detail_URL": "https://staging.pdv.gene.com/staging/fhir/medicationrequest/a2z1P000000Gbh9QAC"
+                }
+            ],
+            "Copay Enrollments": [],
+            "start_date": "1924-09-16 20:37:24.488704",
+            "end_date": "2024-09-16 20:37:24.488809"
+        }
+    ]
+}

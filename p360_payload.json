@@ -1,0 +1,1742 @@
+{
+    "resourceType": "Bundle",
+    "id": "bundle-example",
+    "meta": {
+        "lastUpdated": "2024-09-16T20:38:17Z"
+    },
+    "type": "searchset",
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://staging.pdv.gene.com/staging/patients/touchpoints/"
+        },
+        {
+            "relation": "next",
+            "url": "https://example.com/custom/pdv360?patient=MPAT-669226&searchId=ff15fd40-ff71-4b48-b366-09c706bed9d0&page=2"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/fhir/patient/a0R1P000007genRUAQ",
+            "resource": {
+                "gender": "female",
+                "id": "a0R1P000007genRUAQ",
+                "birthDate": "1800-01-01",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-VeratoId",
+                        "value": "5eb39268d55f7373ec8f9419"
+                    },
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactID",
+                        "value": "a1m1P000002k0X4QAI"
+                    }
+                ],
+                "communication": [
+                    {
+                        "language": {
+                            "text": "English"
+                        },
+                        "preferred": true
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "a0R1P000007genRUAQ",
+                        "given": [
+                            "a0R1P000007genRUAQ"
+                        ]
+                    }
+                ],
+                "resourceType": "Patient",
+                "meta": {
+                    "lastUpdated": "2024-04-22T20:08:42.503+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-household_income",
+                        "valueString": "$0 - $75,000"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-patientType",
+                        "valueCode": "GPF"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-blackliststatus",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-gatcf_active_flag",
+                        "valueString": "true"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-mpat",
+                        "valueString": "MPAT-695295"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-household_size",
+                        "valueString": "2"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "1111111111",
+                        "use": "mobile",
+                        "rank": 1,
+                        "extension": [
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-source",
+                                "valueString": "Pact"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-ts",
+                                "valueString": "2024-01-02 17:04:01+00:00"
+                            }
+                        ]
+                    },
+                    {
+                        "system": "phone",
+                        "value": "1111111111",
+                        "use": "home",
+                        "rank": 2,
+                        "extension": [
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-source",
+                                "valueString": "Pact"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-ts",
+                                "valueString": "2024-01-02 17:04:01+00:00"
+                            }
+                        ]
+                    },
+                    {
+                        "system": "email",
+                        "value": "masked@masked.masked",
+                        "use": "home",
+                        "extension": [
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-source",
+                                "valueString": "Pact"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-ts",
+                                "valueString": "2024-01-02 17:04:01+00:00"
+                            }
+                        ]
+                    },
+                    {
+                        "system": "phone",
+                        "value": "1111111111",
+                        "use": "old",
+                        "rank": 4,
+                        "extension": [
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-source",
+                                "valueString": "Pact"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-telecom-ts",
+                                "valueString": "2024-01-02 17:04:01+00:00"
+                            }
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "Street City MD 21217",
+                        "extension": [
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-address-source",
+                                "valueString": "Pact"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-address-ts",
+                                "valueString": "2022-12-28 14:11:45+00:00"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/fhir/coverage/a0O1P00000QxiodUAB",
+            "resource": {
+                "status": "active",
+                "id": "a0O1P00000QxiodUAB",
+                "resourceType": "Coverage",
+                "order": 1,
+                "beneficiary": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "payor": [
+                    {
+                        "display": "MEDICARE PART A/B (MD)"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2022-12-28T12:03:26.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-coverage-group",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-coverage-rxbin",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-coverage-rxpcn",
+                        "valueString": "NA"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006Gvb6YUAR",
+            "resource": {
+                "code": {
+                    "text": "Follow-up on Expiring Patient Consent Form"
+                },
+                "executionPeriod": {
+                    "end": "2023-02-16T17:31:50.000+00:00",
+                    "start": "2023-01-16T09:18:10.000+00:00"
+                },
+                "id": "00T1P00006Gvb6YUAR",
+                "owner": {
+                    "display": "Anson Toy"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00001LV4kmQAD"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "Expires 2/15 \r\n\r\n1/23/2023: LMFCB w/ PT - ERobison\r\n2/1/2023: LMFCB w pt, faxing HCP - cveracruz\r\n2/8/2023: Faxed HCP - M. Abella\r\n\r\n2/14/2023: Sent PT ePCF - ERobison\r\n\r\n2/16/2023: rec'd epcf - RLibed",
+                "authoredOn": "2023-01-16T09:18:10.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-02-16T17:31:50.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-02-17"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Patient Foundation"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Follow-up on Expiring Patient Consent Form"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006IxKEsUAN",
+            "resource": {
+                "code": {
+                    "text": "Phone Call"
+                },
+                "executionPeriod": {
+                    "end": "2023-02-16T17:31:23.000+00:00",
+                    "start": "2023-02-16T17:27:59.000+00:00"
+                },
+                "id": "00T1P00006IxKEsUAN",
+                "owner": {
+                    "display": "Reggie Libed"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00001LV4kmQAD"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "authoredOn": "2023-02-16T17:27:59.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-02-16T17:31:23.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-02-16"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Patient Foundation"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Phone Call 2/16/2023 9:27 AM"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006KNDeQUAX",
+            "resource": {
+                "code": {
+                    "text": "Call"
+                },
+                "executionPeriod": {
+                    "end": "2023-03-09T15:29:10.000+00:00",
+                    "start": "2023-03-09T15:29:10.000+00:00"
+                },
+                "id": "00T1P00006KNDeQUAX",
+                "owner": {
+                    "display": "Silscilla Taheri"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00001LV4kmQAD"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "3/9/2023: Jennifer/MV called in to check status of enrollment forms. - STaheri",
+                "authoredOn": "2023-03-09T15:29:10.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-03-09T15:29:10.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-03-09"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Patient Foundation"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Call"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00THs0000CtA2cgMQC",
+            "resource": {
+                "code": {
+                    "text": "Perform Case Review"
+                },
+                "executionPeriod": {
+                    "end": "2023-09-05T15:33:53.000+00:00",
+                    "start": "2023-08-25T15:24:00.000+00:00"
+                },
+                "id": "00THs0000CtA2cgMQC",
+                "owner": {
+                    "display": "Patient Navigator"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00000y89rSQAQ"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "GPF pt\r\nDOT/ADOT?\r\n\r\n8/25/2023: VMbox full, unable to LM, faxed HCP - CRoboca\r\n9/5/2023: Called pt, LMFCB - Wsafi",
+                "authoredOn": "2023-08-25T15:24:00.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-09-05T15:33:53.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-08-30"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Treatment Coordination"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Perform Case Review"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006Ls4LhUAJ",
+            "resource": {
+                "code": {
+                    "text": "Perform Case Review"
+                },
+                "executionPeriod": {
+                    "end": "2023-04-24T18:41:06.000+00:00",
+                    "start": "2023-04-06T19:42:49.000+00:00"
+                },
+                "id": "00T1P00006Ls4LhUAJ",
+                "owner": {
+                    "display": "Patient Navigator"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00000y89rSQAQ"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "GPF Patient\r\nLast Dot: 9/16/22\r\n\r\n*Create new MS, check PFSR for shipment updates\r\n\r\n2/22/2023: LMFCB for pt - EBaldovino\r\n2/22/2023: rcvd ibc from pt confirming adot 3/15 - jphillips\r\n4/6/2023: Shipment 3/22/23 per PFSR. Faxed SOT- TLeonard\r\n4/24/2023: LMFCB w pt - TLeonard",
+                "authoredOn": "2023-04-06T19:42:49.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-04-24T18:41:06.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-04-20"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Treatment Coordination"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Perform Case Review"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006LuXzLUAV",
+            "resource": {
+                "code": {
+                    "text": "Perform Case Review"
+                },
+                "executionPeriod": {
+                    "end": "2023-08-25T15:23:56.000+00:00",
+                    "start": "2023-04-24T18:42:59.000+00:00"
+                },
+                "id": "00T1P00006LuXzLUAV",
+                "owner": {
+                    "display": "Patient Navigator"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00000y89rSQAQ"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "GPF pt\r\nDOT/ADOT?\r\n\r\n8/25/2023: VMbox full, unable to LM, faxed HCP - CRoboca",
+                "authoredOn": "2023-04-24T18:42:59.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-08-25T15:23:56.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-08-21"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Treatment Coordination"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Perform Case Review"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006IwvojUAB",
+            "resource": {
+                "code": {
+                    "text": "Perform Reverification Review"
+                },
+                "executionPeriod": {
+                    "end": "2023-02-15T00:38:02.000+00:00",
+                    "start": "2023-02-15T00:38:02.000+00:00"
+                },
+                "id": "00T1P00006IwvojUAB",
+                "owner": {
+                    "display": "Anson Toy"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00001LV4kmQAD"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "authoredOn": "2023-02-15T00:38:02.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-02-15T00:38:02.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2024-01-15"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Patient Foundation"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Perform Reverification Review"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Not Started"
+                    }
+                ],
+                "status": "draft"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00THs0000CudzZaMQI",
+            "resource": {
+                "code": {
+                    "text": "Perform Case Review"
+                },
+                "executionPeriod": {
+                    "end": "2023-09-26T14:47:09.000+00:00",
+                    "start": "2023-09-05T15:34:13.000+00:00"
+                },
+                "id": "00THs0000CudzZaMQI",
+                "owner": {
+                    "display": "Patient Navigator"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00000y89rSQAQ"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "GPF pt\r\nDOT/ADOT?\r\n\r\n8/25/2023: VMbox full, unable to LM, faxed HCP - CRoboca\r\n9/5/2023: Called pt, LMFCB - Wsafi\r\n9/26/2023: VMbox full, faxed SOT - CRoboca",
+                "authoredOn": "2023-09-05T15:34:13.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-09-26T14:47:09.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-09-19"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Treatment Coordination"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Perform Case Review"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00THs0000CxyFvOMQU",
+            "resource": {
+                "code": {
+                    "text": "Perform Case Review"
+                },
+                "executionPeriod": {
+                    "end": "2023-10-12T21:06:26.000+00:00",
+                    "start": "2023-09-26T14:48:00.000+00:00"
+                },
+                "id": "00THs0000CxyFvOMQU",
+                "owner": {
+                    "display": "Patient Navigator"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00000y89rSQAQ"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "GPF pt\r\nDOT/ADOT?\r\n\r\n8/25/2023: VMbox full, unable to LM, faxed HCP - CRoboca\r\n9/5/2023: Called pt, LMFCB - Wsafi\r\n9/26/2023: VMbox full, faxed SOT - CRoboca\r\n\r\n10/12/2023: no response, closing case - CRoboca",
+                "authoredOn": "2023-09-26T14:48:00.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-10-12T21:06:26.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-10-10"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Treatment Coordination"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Perform Case Review"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006KND5rUAH",
+            "resource": {
+                "code": {
+                    "text": "Phone Call"
+                },
+                "executionPeriod": {
+                    "end": "2023-03-09T15:32:23.000+00:00",
+                    "start": "2023-03-09T15:25:28.000+00:00"
+                },
+                "id": "00T1P00006KND5rUAH",
+                "owner": {
+                    "display": "Silscilla Taheri"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00001LV4kmQAD"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "authoredOn": "2023-03-09T15:25:28.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-03-09T15:32:23.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-03-09"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Patient Foundation"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Phone Call 3/9/2023 7:25 AM"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/task/00T1P00006IxLBLUA3",
+            "resource": {
+                "code": {
+                    "text": "Call"
+                },
+                "executionPeriod": {
+                    "end": "2023-02-16T17:32:31.000+00:00",
+                    "start": "2023-02-16T17:32:31.000+00:00"
+                },
+                "id": "00T1P00006IxLBLUA3",
+                "owner": {
+                    "display": "Reggie Libed"
+                },
+                "intent": "order",
+                "basedOn": [
+                    {
+                        "reference": "case/5001P00001LV4kmQAD"
+                    },
+                    {
+                        "reference": "patient/a0R1P000007genRUAQ"
+                    }
+                ],
+                "description": "2/16/2023: IBC from PRC/ERICA to confirm pt's PCP1 as 202) 340-0265  - RLibed",
+                "authoredOn": "2023-02-16T17:32:31.000+00:00",
+                "resourceType": "Task",
+                "meta": {
+                    "lastUpdated": "2023-02-16T17:32:31.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_date",
+                        "valueString": "2023-02-16"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-recordtype_name",
+                        "valueString": "Patient Foundation"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-activity_type",
+                        "valueString": "Call"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-foundation_bi_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-task-status",
+                        "valueString": "Completed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P00001LV4kmQAD",
+            "resource": {
+                "authoredOn": "2022-02-23T14:02:42.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P00001LV4kmQAD",
+                "code": {
+                    "text": "Patient Foundation"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "04333384"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "WINDY STATEN"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-09-22T07:29:14.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2022-02-23"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Portal"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "Approved"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "Insured: Can't afford Medication"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "On Hold"
+                    }
+                ],
+                "status": "on-hold"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P00000y88naQAA",
+            "resource": {
+                "authoredOn": "2020-01-24T00:10:39.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P00000y88naQAA",
+                "code": {
+                    "text": "Co-pay Assistance"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "02654680"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "Victor Sevilla"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-01-21T02:29:07.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2020-04-06"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "Closed. Services Complete"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Fax"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P000017ToIoQAK",
+            "resource": {
+                "authoredOn": "2020-10-08T08:03:35.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P000017ToIoQAK",
+                "code": {
+                    "text": "Benefits Investigation/Prior Authorization"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "03141032"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "PACT Admin"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-01-21T03:19:42.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2020-10-08"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "Closed. Created in Error"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Fax - BR Re-Enroll"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P00001LUMsBQAX",
+            "resource": {
+                "authoredOn": "2022-02-04T09:07:50.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P00001LUMsBQAX",
+                "code": {
+                    "text": "Benefits Investigation/Prior Authorization"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "04289126"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "PACT Admin"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-01-21T03:22:17.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2022-02-08"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "Closed. Services Complete"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Fax - BR Re-Enroll"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P00000y88nZQAQ",
+            "resource": {
+                "authoredOn": "2020-01-24T00:10:39.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P00000y88nZQAQ",
+                "code": {
+                    "text": "Benefits Investigation/Prior Authorization"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "02654679"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "Victor Sevilla"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-01-21T02:29:07.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2020-04-06"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "Closed. Services Complete"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Fax"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P00000y89rSQAQ",
+            "resource": {
+                "authoredOn": "2020-01-24T15:50:45.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P00000y89rSQAQ",
+                "code": {
+                    "text": "Treatment Coordination"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "02655670"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "Emily Baldovino"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-09-22T08:36:16.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2020-01-24"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Internal"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Enrollment Review"
+                    }
+                ],
+                "status": "draft"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P000014lrolQAA",
+            "resource": {
+                "authoredOn": "2020-06-01T17:32:38.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P000014lrolQAA",
+                "code": {
+                    "text": "Patient Foundation"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "02904913"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "EHR EHR"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-01-21T02:29:54.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2021-11-24"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "Closed. Patient Non-Responsive"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "Approved"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "Insured: Can't afford Medication"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/serviceRequest/5001P00001LUktsQAD",
+            "resource": {
+                "authoredOn": "2022-02-15T14:58:50.000+00:00",
+                "requester": {
+                    "display": "CARLOS PARDO-VILLAMIZAR"
+                },
+                "id": "5001P00001LUktsQAD",
+                "code": {
+                    "text": "Patient Foundation"
+                },
+                "intent": "order",
+                "identifier": [
+                    {
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber",
+                        "value": "04313143"
+                    }
+                ],
+                "performer": [
+                    {
+                        "display": "Wranga Safi"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "resourceType": "ServiceRequest",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-01-21T03:22:26.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-dateofStatus",
+                        "valueString": "2022-02-18"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-managingOrganization",
+                        "valueString": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-closedReason",
+                        "valueString": "Closed. Created in Error"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-origin",
+                        "valueString": "Fax"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_status",
+                        "valueString": "Inconclusive"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-foundation_BI_flag",
+                        "valueString": "false"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-pf_eligibility_reason",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-sr-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "completed"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/fhir/encounter/5001P000017WnlGQAS",
+            "resource": {
+                "identifier": [
+                    {
+                        "value": "03308837",
+                        "system": "http://gene.com/fhir/identfierSystem/usix-pe-pactCaseNumber"
+                    }
+                ],
+                "id": "5001P000017WnlGQAS",
+                "type": [
+                    {
+                        "text": "PRC Inquiry"
+                    }
+                ],
+                "reasonCode": [
+                    {
+                        "text": "Ocrevus"
+                    }
+                ],
+                "resourceType": "Encounter",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "period": {
+                    "start": "2020-12-28T19:09:57.000+00:00",
+                    "end": "2020-12-28T19:21:16.000+00:00"
+                },
+                "class": {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+                    "code": "DEMO",
+                    "display": "all demographic information sensitivity"
+                },
+                "meta": {
+                    "lastUpdated": "2022-12-30T04:40:22.000+00:00",
+                    "source": "Pact"
+                },
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-serviceType",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-note",
+                        "valueString": "PT wanted to thank team for all they do\n\nProvided caller with direct line: OCRE Care Team\n\nDirect transfer to OCRE Care Team"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-fieldRep",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-closedReason",
+                        "valueString": "Closed. Services Complete"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-createdBy",
+                        "valueString": "Liberty Subida"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-origin",
+                        "valueString": "844-Ocrevus"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-topic",
+                        "valueString": "Feedback for company"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-category",
+                        "valueString": "Feedback for company"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-outcome",
+                        "valueString": "Trf./Referred To Access Solutions"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-inquiry-status",
+                        "valueString": "Closed"
+                    }
+                ],
+                "status": "finished"
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/AdverseEvent/a201P000002fenNQAQ",
+            "resource": {
+                "actuality": "potential",
+                "detected": "2020-12-28T19:17:24.000+00:00",
+                "identifier": {
+                    "value": "SR20-0163006",
+                    "system": "http://gene.com/fhir/identifierSystem/usix-pe-AE"
+                },
+                "id": "a201P000002fenNQAQ",
+                "resourceType": "AdverseEvent",
+                "subject": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "encounter": {
+                    "reference": "Encounter/5001P000017WnlGQAS"
+                },
+                "meta": {
+                    "lastUpdated": "2020-12-29T03:42:35.000+00:00",
+                    "source": "Pact"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/RelatedPerson/a1y1P000001D0fTQAS",
+            "resource": {
+                "id": "a1y1P000001D0fTQAS",
+                "name": [
+                    {
+                        "family": "a1y1P000001D0fTQAS",
+                        "given": [
+                            "a1y1P000001D0fTQAS"
+                        ]
+                    }
+                ],
+                "resourceType": "RelatedPerson",
+                "patient": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2024-01-02T17:04:00.000+00:00",
+                    "source": "Pact"
+                },
+                "telecom": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-telecom-primary_phone_type",
+                                "valueString": "Mobile"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-telecom-tertiary_phone",
+                                "valueString": "3333333333"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-telecom-secondary_phone",
+                                "valueString": "2222222222"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-telecom-primary_phone",
+                                "valueString": "1111111111"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-telecom-secondary_phone_type",
+                                "valueString": "NA"
+                            },
+                            {
+                                "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-telecom-tertiary_phone_type",
+                                "valueString": "NA"
+                            }
+                        ]
+                    }
+                ],
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-relationship",
+                        "valueString": "Parent"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-rank",
+                        "valueString": "Primary"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-relatedPerson-email",
+                        "valueString": "masked@masked.masked"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/fhir/questionnaireresponse/2235465",
+            "resource": {
+                "resourceType": "QuestionnaireResponse",
+                "id": "2235465",
+                "authored": "2023-02-16T09:02:30.000+00:00",
+                "basedOn": [
+                    {
+                        "display": "Ocrevus"
+                    }
+                ],
+                "encounter": {
+                    "reference": "Encounter/5001P00001Wk0mxQAB"
+                },
+                "source": {
+                    "reference": "Patient/a0R1P000007genRUAQ"
+                },
+                "meta": {
+                    "lastUpdated": "2023-02-16T09:03:08.000+00:00",
+                    "source": "voc_patient"
+                },
+                "status": "completed",
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-customer_type",
+                        "valueString": "Patient"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-questionnaire",
+                        "valueString": "Post Inquiry - PRC/Medcomm/TISL"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-survey_url",
+                        "valueString": "https://implementation2-genentech-genentech.sbx.sea1.medallia.com/sso/genentech/respInvForm.do?surveyid=2235465"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-agent_name",
+                        "valueString": "aguilee2"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-recordtype",
+                        "valueString": "Patient Resource Center (PRC)"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-case_number",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-created_date",
+                        "valueString": "2023-02-16 09:01:09+00:00"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-case_origin",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-questionnaireresponse-status",
+                        "valueString": "COMPLETED"
+                    }
+                ]
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/careteam/a0R1P000007genRUAQ#CM",
+            "resource": {
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mail",
+                        "valueString": "pactadmin-d@gene.com.invalid"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mobile",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-phone",
+                        "valueString": "NA"
+                    }
+                ],
+                "resourceType": "CareTeam",
+                "name": "Navigator Patient",
+                "meta": {
+                    "lastUpdated": "2024-04-22T20:08:42.503+00:00",
+                    "source": "PACE"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/careteam/a0R1P000007genRUAQ#FS",
+            "resource": {
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mail",
+                        "valueString": "toy.anson@gene.com.invalid"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mobile",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-phone",
+                        "valueString": "NA"
+                    }
+                ],
+                "resourceType": "CareTeam",
+                "name": "Toy Anson",
+                "meta": {
+                    "lastUpdated": "2024-04-22T20:08:42.503+00:00",
+                    "source": "PACE"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/careteam/a0R1P000007genRUAQ#HCO",
+            "resource": {
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mail",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mobile",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-phone",
+                        "valueString": "NA"
+                    }
+                ],
+                "resourceType": "CareTeam",
+                "name": "JOHN HOPKINS MS CENTER - 6TH FLOOR PATH",
+                "meta": {
+                    "lastUpdated": "2023-08-16T04:37:45.000+00:00",
+                    "source": "PACE"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/careteam/a0R1P000007genRUAQ#HCP",
+            "resource": {
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mail",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mobile",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-phone",
+                        "valueString": "(410) 955-9441"
+                    }
+                ],
+                "resourceType": "CareTeam",
+                "name": "PARDO-VILLAMIZAR CARLOS",
+                "meta": {
+                    "lastUpdated": "2022-12-28T10:39:58.000+00:00",
+                    "source": "PACE"
+                }
+            }
+        },
+        {
+            "fullUrl": "https://staging.pdv.gene.com/staging/careteam/a0R1P000007genRUAQ#CEM",
+            "resource": {
+                "extension": [
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mail",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-mobile",
+                        "valueString": "NA"
+                    },
+                    {
+                        "url": "http://gene.com/fhir/StructureDefinition/usix-pe-careteam-phone",
+                        "valueString": "NA"
+                    }
+                ],
+                "resourceType": "CareTeam",
+                "name": "NA"
+            }
+        }
+    ],
+    "total": 30
+}
