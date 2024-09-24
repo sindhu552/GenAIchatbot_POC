@@ -10,14 +10,14 @@ from langchain_community.chat_models import ChatOpenAI
 #from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.document_loaders import JSONLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import BedrockEmbeddings
-from langchain.vectorstores import FAISS 
+# from langchain.embeddings import BedrockEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.indexes import VectorstoreIndexCreator
 #from langchain.llms.bedrock import Bedrock
-from langchain_google_genai import ChatGoogleGenerativeAI
-import google.generativeai as genai
+# from langchain_google_genai import ChatGoogleGenerativeAI
+# import google.generativeai as genai
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+# from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
