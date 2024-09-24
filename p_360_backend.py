@@ -48,7 +48,7 @@ def company_data():
     pdf_split = RecursiveCharacterTextSplitter(chunk_size = 6000, chunk_overlap=500)
     text_chunks = pdf_split.split_text(text)
     
-    embeddings = OpenAIEmbeddings(openai_api_key="sk-proj-dCIgUlQCtRS5KlY8UslJT3BlbkFJ4XJHRYzVWRQClmsczs8h")
+    embeddings = OpenAIEmbeddings(openai_api_key="sk-proj-BMQYwQftFl4LWNg8xgEkT3BlbkFJ1n0MuaRCPoYz6Wi7BXTd")
     vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
     vector_store.save_local("faiss_index")
 
@@ -156,7 +156,7 @@ def company_llm():
 """
 
 
-    model = ChatOpenAI(openai_api_key="sk-proj-dCIgUlQCtRS5KlY8UslJT3BlbkFJ4XJHRYzVWRQClmsczs8h", model_name="gpt-3.5-turbo", temperature=0)
+    model = ChatOpenAI(openai_api_key="sk-proj-BMQYwQftFl4LWNg8xgEkT3BlbkFJ1n0MuaRCPoYz6Wi7BXTd", model_name="gpt-3.5-turbo", temperature=0)
 
     prompt = PromptTemplate(template = prompt_template, input_variables = ["context", "question"])
     chain = load_qa_chain(model, chain_type="stuff", prompt=prompt)
@@ -168,7 +168,7 @@ def company_rag_response(question):
     #company_rag_query = index.query(question = question, llm = rag_llm)
     company_data()
     chain = company_llm()
-    embeddings = OpenAIEmbeddings(openai_api_key="sk-proj-dCIgUlQCtRS5KlY8UslJT3BlbkFJ4XJHRYzVWRQClmsczs8h")
+    embeddings = OpenAIEmbeddings(openai_api_key="sk-proj-BMQYwQftFl4LWNg8xgEkT3BlbkFJ1n0MuaRCPoYz6Wi7BXTd")
     
     new_db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
     docs = new_db.similarity_search(question)
