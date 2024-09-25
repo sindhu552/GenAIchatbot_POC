@@ -21,9 +21,16 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the environment variables
+api_key = os.getenv('api_key')
 
 
-api_key = 'AIzaSyB4V0YKmIoQk1BMlRkRATL011Uy9nUcFaA'
+#api_key = 'AIzaSyB4V0YKmIoQk1BMlRkRATL011Uy9nUcFaA'
 # genai.configure(api_key=api_key)
 
 def company_data():
@@ -48,7 +55,7 @@ def company_data():
     pdf_split = RecursiveCharacterTextSplitter(chunk_size = 6000, chunk_overlap=500)
     text_chunks = pdf_split.split_text(text)
     
-    embeddings = OpenAIEmbeddings(openai_api_key="sk-proj-BMQYwQftFl4LWNg8xgEkT3BlbkFJ1n0MuaRCPoYz6Wi7BXTd")
+    embeddings = OpenAIEmbeddings(openai_api_key=api_key)
     vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
     vector_store.save_local("faiss_index")
 
@@ -156,7 +163,7 @@ def company_llm():
 """
 
 
-    model = ChatOpenAI(openai_api_key="sk-proj-BMQYwQftFl4LWNg8xgEkT3BlbkFJ1n0MuaRCPoYz6Wi7BXTd", model_name="gpt-3.5-turbo", temperature=0)
+    model = ChatOpenAI(openai_api_key=api_key, model_name="gpt-3.5-turbo", temperature=0)
 
     prompt = PromptTemplate(template = prompt_template, input_variables = ["context", "question"])
     chain = load_qa_chain(model, chain_type="stuff", prompt=prompt)
@@ -168,7 +175,7 @@ def company_rag_response(question):
     #company_rag_query = index.query(question = question, llm = rag_llm)
     company_data()
     chain = company_llm()
-    embeddings = OpenAIEmbeddings(openai_api_key="sk-proj-BMQYwQftFl4LWNg8xgEkT3BlbkFJ1n0MuaRCPoYz6Wi7BXTd")
+    embeddings = OpenAIEmbeddings(openai_api_key=api_key)
     
     new_db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
     docs = new_db.similarity_search(question)
