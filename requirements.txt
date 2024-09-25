@@ -19,3 +19,4 @@ jsonpath-python==1.0.6
 jsonpointer==2.0
 jsonschema==3.2.0
 SQLAlchemy==2.0.32
+python-dotenv
